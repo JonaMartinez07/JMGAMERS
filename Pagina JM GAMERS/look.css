@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(JM\ logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500vh;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    font-size: 50px;
+}
+#contenedor{
+    margin: 10px auto;
+    width: 80%;
+    box-sizing: border-box;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}  
+header nav h1 {
+    font-size: 70px;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    color: darkorange;
+    
+  }
+  header nav h1 img {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+  }
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    font-size: 18px;
+    color: darkorange;
+  }
+  
+  .menu a:hover {
+    color: blue;
+  }
+  #nav1 { 
+    position: fixed; /*menu izquierdo*/
+    top: 50;
+    left: 1;
+    width: 250px;
+    height: 1500vh;
+    padding: 20px;
+    box-sizing: border-box;
+    color: darkorange;
+    
+  }
+  
+  #menu-izquierdo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size:25px;
+  }
+  
+  #h301 {
+    margin-bottom: 20px;
+  }
+  
+  .menu2 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu2 li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .menu2 li:hover {
+    background-color: #ccc;
+  }
+  
+  .menu2 a {
+    text-decoration: none;
+    color: #f5a30c;
+  }
+  
+  .menu2 a:hover {
+    color: #1202f5;
+  }
+  
+  
+  .primero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+    background-color:darkorange;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 10px solid #010004;
+    border-radius: 30px;
+    
+  }
+  #menu-centro {
+    text-align: center;
+    color: #000000;
+  }
+  
+  #menu-centro img {
+    margin: 20px auto;
+  }
+  #p1{
+    font-family: serif;
+    font-size: 15px;
+    color: #000000;
+  }
+  #btn1:hover {
+    background-color: darkorange; 
+    color: #fff; 
+    border-radius: 50%;
+  }
+  #a1{
+    text-decoration: none;
+    
+  }
+  #btn2:hover {
+    background-color:darkorange; 
+    color:rgb(0, 0, 0);
+    border-radius: 50%;
+  
+  }
+  .segundo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+    background-color:darkorange;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 10px solid #010004;
+    border-radius: 30px;
+  }
+  #h3-2{
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    text-align: center  ;
+  }
+  #p2{
+    font-family: serif;
+    font-size: 15px;
+    color: #000000;
+  }
+  #btn3:hover {
+    background-color: darkorange; 
+    color: #fff; 
+    border-radius: 50%;
+    
+  }
+  #a2{
+    text-decoration: none;
+    
+  }
+  #btn4:hover {
+    background-color:darkorange; 
+    color:rgb(0, 0, 0);
+    border-radius: 50%;
+    
+  }
+  .tercero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+    background-color:darkorange;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 10px solid #010004;
+    border-radius: 30px;
+  }
+  #h3-3{
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    text-align: center;
+  }
+  #p3{
+    font-family: serif;
+    font-size: 15px;
+    color: #000000;
+  }
+  .redes {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .redes img {
+    width: 80px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.redes img:hover {
+    transform: scale(1.1);
+    
+}
+#VideoPlayer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  margin: 0 auto;
+  background-color:darkorange;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 10px solid #010004;
+  border-radius: 30px;
+  
+}
+ 
+  
+  
+  
+  

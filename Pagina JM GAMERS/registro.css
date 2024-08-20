@@ -1,0 +1,91 @@
+body{
+    font-size:larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(255, 255, 255);
+    background-image: url(JM\ logo.jpg);
+    background-size:cover ;
+    font-size: center;
+}
+
+#contenedor{
+   margin: 1em auto;
+   padding: 1em;
+   width: 500px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 1em;
+    width: auto;
+    overflow:hidden;
+}
+ul li div.controles{
+    margin-left: 150;
+}
+ul li.boton input{
+    background-image: url(JM\ logo.jpg);
+    font-family: fantasy; color: #9e7b06;
+    border-top: 2px solid #f3f1ea;
+    clear: both;
+    float: none;
+    padding: 1em 0;
+    text-align:center;
+    width: 100%;
+    font-size: 25px;
+}
+ul li label.titulo{
+    font-size: 18px;
+}
+ul li label.titulo{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+ul li div span label{
+    display:block;
+    font-size: 20px;
+    color: rgb(190, 188, 166);
+}
+ul li input{
+    padding: 0.2em;
+}
+input#apellido1, input#apellido2,input#Producto, input#compañia, input#pais{
+    width: 260px ;
+}
+input#cedula{
+    width: 150px;
+}
+input#Nombre{
+    width: 150px;
+}
+input#descripcion{
+    padding: 0.9em;
+    width: 600px;
+}
+ul li:hover{
+    background-color: #ec8805;
+}
+ul li input, ul li select{
+    border: 2px solid transparent;
+    border-bottom: 2px solid rgb(250, 114, 2);
+    background-color: rgb(246, 247, 243);
+}
+ul li.botones input{
+    border: 2px solid #ccc;
+}
+ul li input:focus, ul li select:focus{
+    border: 2px solid #f00;
+}
+#aa{
+    font-size:25px;
+    text-decoration: none;
+    font-family: monospace;
+    color:darkorange;
+    margin-left: 0px;
+    background-image: url(JM\ logo.jpg);
+    border-radius: 10px;
+   
+}

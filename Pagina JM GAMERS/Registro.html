@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <div id="contenedor">
+        <h1>Registro</h1>
+        <form method="post" action="#">
+            <ul>
+                <li>
+                    <label class="titulo" for="Nombre">Datos Personales</label>
+                    <div class="conreoles">
+                        <span class="completo">
+                            <input id="Nombre" name="Nombre" value=""/>
+                            <label for="Titulo">Nombre</label>
+                        </span> <br>
+                        <br>
+                        <span class="completo">
+                            <input id="apellido1" name="Apellido1" value=""/>
+                            <label for="apellido1">Primer Apellido</label>
+                        </span> <br>
+                        <br>
+                        <span class="completo">
+                            <input id="apellido2" name="Apellido2" value=""/>
+                            <label for="apellido2">Segundo Apellido</label>
+                        </span> <br>
+                        <br>
+                        <span class="completo">
+                            <input id="cedula" name="cedula" value=""/>
+                            <label for="cedula"># Cedula</label>
+                        </span>
+                    </div>
+                </li> <br>
+                <br>
+                <li>
+                    <label class="titulo" for="Producto"></label>
+                    <div class="controles">
+                        <span class="completo">
+                            <input id="Producto" name="Producto" value=""/>
+                            <label for="Producto">Correo Electronico</label>
+                        </span> <br>
+                        <br>
+                        <span class="compañia">
+                            <input id="compañia" name="compaño" value=""/>
+                            <label for="compañia">Numero de Telefono</label>
+                        </span> <br>
+                        <br>
+                        <span class="pais">
+                            <select id="pais" name="pais">
+                                <option vale=""></option>
+                                <option value="pais1">Colombia</option>
+                                <option value="pais2">EE.UU</option>
+                                <option value="pais2">España</option>
+                            </select>
+                            <label for="pais">País</label>
+                        </span> <br>
+                    </div>
+                </li>
+                <li class="boton">
+                        <input id="alta" type="submit" value="INGRESAR" />
+                </li>
+            </ul>
+
+        </form>
+        <a id="aa" href="Home.html">Regresar a la Home</a>
+    </div>
+</body>
+</html>
